@@ -11,7 +11,7 @@ class Automovil:
             print('Acelerando ...')
             self._motor.inyectar_gasolina(10)
         else:
-            print('Desacelerando')
+            print('Desacelerando ...')
             self._motor.inyectar_gasolina(3)
         self._estado = 'en movimiento'
 class Motor:
