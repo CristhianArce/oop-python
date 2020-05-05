@@ -99,5 +99,7 @@ if __name__ == "__main__":
         matriz = findElementInMatrix(matriz,num,mark)
         playGame = verify_any_winner(matriz,turno)
         turno += 1
-
+        if(turno>9):
+            print("No hay ganadores (Draft)")
+            playGame = False
         
